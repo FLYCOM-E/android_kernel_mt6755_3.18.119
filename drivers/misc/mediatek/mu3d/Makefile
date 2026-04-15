@@ -11,5 +11,7 @@
 # GNU General Public License for more details.
 #
 
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/mu3phy
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/mu3d/hal
 obj-$(CONFIG_USB_MU3D_DRV)	+= drv/
 obj-$(CONFIG_USB_MU3D_DRV)	+= hal/

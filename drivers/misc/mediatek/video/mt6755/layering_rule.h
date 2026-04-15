@@ -13,7 +13,8 @@
 #ifndef __LAYER_STRATEGY_EX__
 #define __LAYER_STRATEGY_EX__
 
-#include "layering_rule_base.h"
+//#include "layering_rule_base.h"
+#include "../common/layering_rule_base/v1/layering_rule_base.h"
 #include "disp_log.h"
 
 #define MAX_PHY_OVL_CNT 12

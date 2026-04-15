@@ -11,6 +11,7 @@
 # GNU General Public License for more details.
 #
 
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/ppm_v1/src/mach/mt6755
 export PPM_ROOT_DIR ?= $(srctree)/drivers/misc/mediatek/base/power/ppm_v1
 
 obj-y += src/

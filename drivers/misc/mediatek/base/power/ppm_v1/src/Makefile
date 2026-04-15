@@ -11,6 +11,8 @@
 # GNU General Public License for more details.
 #
 
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/ppm_v1/inc
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/ppm_v1/src/mach/mt6755
 ccflags-y += \
 	-I$(PPM_ROOT_DIR)/inc \
 	-I$(PPM_ROOT_DIR)/src/mach/$(CONFIG_MTK_PLATFORM) \

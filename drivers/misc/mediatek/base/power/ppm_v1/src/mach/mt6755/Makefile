@@ -17,3 +17,5 @@ ccflags-y +=	\
 
 # power state settings
 obj-y += mt_ppm_power_state.o
+ccflags-y += -I$(srctree)/drivers/misc/mediatek/base/power/ppm_v1/inc
+
