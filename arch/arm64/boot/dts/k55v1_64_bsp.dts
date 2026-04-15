@@ -20,7 +20,7 @@
 	atag,videolfb-islcm_inited = <0>;
 	atag,videolfb-fps= <6000>;
 	atag,videolfb-vramSize= <0x01800000>;
-	atag,videolfb-lcmname= "nt35695_fhd_dsi_cmd_truly_nt50358_drv";
+	atag,videolfb-lcmname= "nt35695_fhd_dsi_cmd_truly_nt50358_720p_lcm_drv";
 };
 
 &odm {
